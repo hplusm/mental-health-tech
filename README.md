@@ -10,6 +10,23 @@ The HR department is initiating a pre-emptive mental health program. This analys
 - Provide actionable insights for HR interventions
 - Create interpretable visualizations
 
+## Key Findings
+### Cluster Analysis
+1. Uncertain/Neutral Cluster (39.86%)
+   - High uncertainty about benefits
+   - Limited organizational resources
+   - Low mental health prevalence
+
+2. Supportive Environment Cluster (30.82%)
+   - Strong mental health benefits
+   - High resource availability
+   - Positive leave policy perception
+
+3. Limited Support Cluster (29.32%)
+   - Limited organizational support
+   - High negative consequences
+   - Significant career concerns
+
 ## Project Structure
 ```
 mental-health-tech/
@@ -33,3 +50,11 @@ mental-health-tech/
 - scikit-learn==1.0.2
 - matplotlib==3.5.1
 - seaborn==0.11.2
+
+## Limitations
+- Geographic bias (62.4% US-based)
+- Gender imbalance (72.5% male)
+- Self-reported data
+
+## Visualizations
+See `visualization_catalog.md` for a complete catalog of generated visualizations organized by category.
