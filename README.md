@@ -11,10 +11,16 @@ The HR department is initiating a pre-emptive mental health program. This analys
 - Create interpretable visualizations
 
 ## Project Structure
+```
 mental-health-tech/
-├── data/ # Survey data files
-├── notebooks/ # Jupyter notebooks
-└── README.md # Project documentation
+├── data/                # Survey data files
+│   └── survey_2016.csv
+├── notebooks/          # Jupyter notebooks
+│   └── Mental_Health_project.ipynb
+├── requirements.txt    # Project dependencies
+├── .gitignore         # Git ignore file
+└── README.md          # Project documentation
+```
 
 ## Setup
 1. Clone this repository
